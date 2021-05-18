@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tomy Bali Driver</title>
+<link rel="shortcut icon" href="assets/images/zzzz.jpg" />
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/megamenu.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<script type="text/javascript" src="assets/js/validasi.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124562769-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124562769-1');
+</script>
+
+</head>
+
+
+<body>
+<div class="header">
+	<div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 header1">
+                <!-- Logo -->		<!-- About Us --><!-- Contact --><!-- Temp --><!-- Booking -->
+                <div class="logo">
+                	<a href="https://www.tomybalitour.com/"><img src="assets/images/rrrrr.png" /></a>
+                </div>
+                 <ol class="about-contact">
+                    <li class="booking"><a href="booking.html"><span>Booking</span></a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ol>
+            </div>
+       </div>
+       
+   </div>
+</div>
+<div class="header-menu">
+	<div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 header2 p0">
+                    <ol class="megamenu menu black">
+                        <li><a href="https://www.tomybalitour.com/"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="best-destination.html"><i class="fas fa-map-marked-alt"></i> Destination</a></li>
+                        <li>
+                        	<a href="tours.html"><i class="fas fa-car"></i> Tours<i class="fas fa-angle-down pl-3"></i></a>
+                            <ol class="dropdown">
+                            	<li><a href="tour-gwk.html">South Bali Tour</a></li>
+                                <li><a href="tour-ud.html">North Bali Tour</a></li>
+                                <li><a href="tour-kuta.html">West Bali Tour</a></li>
+                                <li><a href="tour-gg.html">East Bali Tour</a></li>
+                            </ol>
+                        </li>
+                        <li><a href="custom-req.html" class="active"><i class="fas fa-comment"></i> Coustom Request</a></li>
+                        <li><a href="blog.html"><i class="fas fa-rss-square"></i> Blog</a></li>
+                    </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+	<div class="container">
+        <div class="row">
+        	<div class="col-xl-8">
+            	<h1 class=" mt-2 mb-3"><span>CUSTOM REQUEST</span></h1>
+                <form action="proses3.php" method="post" onsubmit="return check3();" id="frm3">
+                	<div class="row mb-2">
+                    	<div class="col-3">
+                    		<label for="idnama">Name :</label>
+                    	</div>
+                        <div class="col-9">
+                    		<input class="form-control" placeholder="Name" id="idnama" name="txtnama" />
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                    	<div class="col-3">
+                    		<label for="idemail">Email :</label>
+                    	</div>
+                        <div class="col-9">
+                    		<input class="form-control" placeholder="Email" id="idemail" name="txtemail" />
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                    	<div class="col-3">
+                    		<label for="idpn">Phone Number :</label>
+                    	</div>
+                        <div class="col-4">
+                    		<input class="form-control" placeholder="Phone Number" id="idpn" name="txtphonenumber" />
+                        </div>
+                        <div class="col-2">
+                    		<label for="idgender">Gender :</label>
+                        </div>
+                        <div class="col-3">
+                    		<select class="form-control" id="idgender" name="txtgender">
+                            	<option>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                    	<div class="col-3">
+                    		<label for="idtime">Choice of Time :</label>
+                    	</div>
+                        <div class="col-4">
+                    		<select class="form-control" id="idtime" name="txttime">
+                            	<option>Choice of Time</option>
+                                <option>Half Day</option>
+                                <option>Full Day</option>
+                            </select>
+                        </div>
+                        <div class="col-2">
+                    		<label for="idcars">Select Cars :</label>
+                        </div>
+                        <div class="col-3">
+                    		<select class="form-control" id="idcars" name="txtcars">
+                            	<option>Select Cars</option>
+                                <option>APV</option>
+                                <option>Avanza</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                    	<div class="col-3">
+                    		<label for="iddes1">Destination1 :</label>
+                    	</div>
+                        <div class="col-3">
+                    		<input class="form-control" placeholder="Destination1" id="iddes1" name="txtdes1" />
+                        </div>
+                        <div class="col-3">
+                    		<label for="iddes2">Destination2 :</label>
+                    	</div>
+                        <div class="col-3">
+                    		<input class="form-control" placeholder="Destination2" id="iddes2" name="txtdes2" />
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                    	<div class="col-3">
+                    		<label for="idpesan">Additional Message :</label>
+                    	</div>
+                        <div class="col-9">
+                    		<textarea class="form-control kotak-message2" placeholder="Additional Messages" id="idpesan" name="txtpesan"></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                    	<p class="text-center mt-2">Your Message Was Successfully Sent!</p>
+                    	<input type="submit" class="btn btn-info" value="Sent Request" />
+                    </div>
+                </form>	
+            </div>
+            
+            
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            	<div class="box-info mt-3">
+                    <h3>TOURS</h3>
+                    <ol>
+                        <li><a href="tour-gg.html">East Bali Tour</a></li>
+                        <li><a href="tour-gwk.html">South Bali Tour</a></li>
+                        <li><a href="tour-ud.html">North Bali Tour</a></li>
+                        <li><a href="tour-kuta.html">West Bali Tour</a></li>
+                    </ol>
+                </div>
+                
+                <div class="box-info">
+                    <h3>DESTINATION</h3>
+                    <ol>
+                        <li><a href="best-destination.html">Ulun Danu</a></li>
+                        <li><a href="best-destination.html">Tanah Lot</a></li>
+                        <li><a href="best-destination.html">Kintamani</a></li>
+                        <li><a href="best-destination.html">Kuta Beach</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+       <div class="row">
+        	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12"><!-- Footer -->
+            	<div class="footer">
+                	<div><a href="https://www.tomybalitour.com/"><img src="assets/images/1531797129682.png" class="img-responsive" /></a></div>
+                    <h2 class="tulis-putih m0">TOMY BALI DRIVER</h2>
+                    <p class="tulis-putih">
+                    	Jl. Diponegoro No.39 Denpasar, Bali<br />081238206939 / 082144239054<br />tomybalidriver@gmail.com
+                    </p>
+                    <p class="tulis-putih">
+                    	<a href="https://www.facebook.com/profile.php?id=100014807468894&ref=br_rs"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100014807468894&ref=br_rs"><i class="fab fa-google-plus-square"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100014807468894&ref=br_rs"><i class="fab fa-facebook-square"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+	</div><!-- Penutup Container -->
+    <div class="to-top"></div>
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/megamenu.js"></script>
+    <script type="text/javascript">
+	alert("Your Message Was Successfully Sent!");
+     	$(document).ready(function() {
+			$(".megamenu").megamenu();
+            $(window).scroll(function(){
+				if($(this).scrollTop()>80)
+				{
+					$(".header-menu").addClass("fixtop");
+					$(".to-top").fadeIn("slow");
+				}
+				else
+				{
+					$(".header-menu").removeClass("fixtop");
+					$(".to-top").fadeOut("slow");
+				}
+			});
+			
+			$(".to-top").click(function(){
+				$("body,html").animate({scrollTop:0},400);
+			})
+        });
+     </script>
+</body>
+</html>

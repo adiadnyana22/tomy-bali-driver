@@ -1,0 +1,689 @@
+@charset "utf-8";
+/* 
+CSS Document Template
+By: Adi
+
+List:
+1.Common CSS
+2.Header
+3.Front Picture
+4.Front Tours
+5.Destination
+6.Related Tours
+7.Message To Owner
+8.Footer
+*/
+
+.no-bold{
+	font-weight:normal;
+}
+
+/* 1.Common CSS */
+h1{
+	font-size:35px;
+}
+
+h3{
+	margin-top:20px;
+	font-size:18px;
+	color:#008cee;
+}
+
+h2{
+	margin:0px;
+	border-bottom:1px solid #999;
+	padding-bottom:4px;
+	margin-top:30px;
+	font-size:18px;
+}
+
+h2 span{
+	border-bottom:#666 solid 2px;
+	color:#666;
+	padding-bottom:1px;
+}
+
+.col-xl-12 .tulisan-bali{
+	border:0px;
+}
+
+h4{
+	text-align:center;
+	padding:10px;
+	font-size:22px;
+}
+
+.clear{
+	clear:both;
+}
+
+.float-kiri{
+	float:left;
+}
+
+.tulis-putih{
+	color:#FFF;
+}
+
+.img-responsive{
+	max-width:100%;
+}
+
+.top-m-10{
+	margin-top:10px;
+}
+
+.p0{
+	padding:0px;
+}
+
+.p-kiri{
+	padding-left:0px;
+}
+
+.m0{
+	margin:0px;
+}
+
+.cover{
+	max-height:100%;
+}
+
+.tulis-biru{
+	color:#09F;
+	text-decoration:underline;
+}
+
+.tulis-merah{
+	color:#F00;
+}
+
+.font-20{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.bg-abu{
+	background-color:#CCC;
+	border-radius:10px;
+}
+
+.mt-6 {
+  margin-top: 9rem !important;
+}
+
+.border0{
+	border:0px;
+}
+
+.style0{
+	list-style-type:none;
+	text-decoration:none;
+}
+
+
+/* 2.Header */
+.header-menu{
+	/*background: #383838;
+	background: -moz-linear-gradient(top,  #383838 0%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#383838), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top,  #383838 0%,#000000 100%);
+	background: -o-linear-gradient(top,  #383838 0%,#000000 100%);
+	background: -ms-linear-gradient(top,  #383838 0%,#000000 100%);
+	background: linear-gradient(to bottom,  #383838 0%,#000000 100%);*/
+	background:#1c1c1c;
+	width:100%;
+}
+
+
+.fixtop{
+	position:fixed;
+	top:0px;
+	z-index:1000;
+}
+
+.to-top{
+	width:60px;
+	height:60px;
+	background-image:url(../images/img_71311.png);
+	background-size:cover;
+	z-index:1000;
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	cursor:pointer;
+	display:none;
+}
+
+.header{
+	background:#1c1c1c;
+	width:100%;
+}
+
+
+.header1{
+	background-color:#1c1c1c;
+	height:80px;
+	border-bottom:#000 solid 1px;
+}
+
+.header2{
+	background-color:#1c1c1c;
+	border-top:#333 solid 1px;
+}
+
+.logo{
+	width:130px;
+	height:70px;
+	max-width:100%;
+	float:left;
+}
+
+.about-contact{
+	padding:0px;
+	list-style-type:none;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+	.about-contact li{
+		float:right;
+		font-size:16px;
+		margin-top:20px;
+	}
+	
+	.about-contact li a{
+		display:block;
+		padding:10px 15px;
+		color:#CCC;
+	}
+	
+	.about-contact li a:hover{
+		color:#FFF;
+		text-decoration:none;
+	}
+	
+.booking{
+	background-color:#0CF;
+	border-radius:10px;
+	padding:0px 10px;
+	color:#000;
+}
+
+.booking:hover{
+	background-color:#09F;
+}
+
+
+	.booking a span{
+		color:#333;
+		
+	}
+	
+	.booking a span:hover{
+		color:#000;
+		text-decoration:none;
+		list-style-type:none;
+	}
+
+.menu{
+	padding:0px;
+	list-style-type:none;
+}
+	.menu li{
+		float:left;
+		font-size:18px;
+	}
+	
+	.menu li a{
+		display:block;
+		padding:10px 30px;
+		color:#FFC;
+	}
+	
+	.menu li a:hover, .menu li a.active{
+		background-color:#000;
+		color:#0CF;
+		text-decoration:none;
+	}
+
+li i{
+	padding-right:5px;
+}
+
+.zindex{
+	z-index:999;
+}
+
+/* 3.Front Picture */
+.front-pic{
+	height:auto;
+	background-color:#1f4377;
+	margin-bottom:15px;
+	position:relative;
+}
+
+.tulisan-bali{
+	position:absolute;
+	padding:5px 30px;
+	bottom:90px;
+	right:560px;
+	background-color:rgb(0,0,0,0.6);
+	color:#FFF;
+	font-size:40px;
+	display:none;
+}
+
+.tulisan-des-tour{
+	position:absolute;
+	padding:5px 30px;
+	bottom:30px;
+	right:460px;
+	background-color:rgb(0,0,0,0.6);
+	color:#FFF;
+	font-size:28px;
+	display:none;
+}
+
+/* 4.Front Tours */
+.front-tours{
+	background-color:#0F0;
+	max-width:100%;
+	height:auto;
+	margin-top:15px;
+	position:relative;
+}
+
+.front-tours2{
+	background-color:#0F0;
+	max-width:100%;
+	height:auto;
+	margin:15px 0px;
+	position:relative;
+}
+
+.judul-ft{
+	background-color:rgb(0,0,0,0.6);
+	max-width:100%;
+	width:100%;
+	padding:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	color:#FFF;
+	bottom:0px;
+	font-size:24px;
+}
+
+	.judul-ft a{
+		color:#FFF;
+	}
+	
+	.judul-ft a:hover{
+		color:#CCC;
+		text-decoration:none;
+	}
+
+.judul-ft2{
+	background-color:rgb(0,0,0,0.6);
+	max-width:100%;
+	width:100%;
+	padding:8px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	color:#FFF;
+	bottom:0px;
+	font-size:16px;
+}
+
+	.judul-ft2 a{
+		color:#FFF;
+	}
+	
+	.judul-ft2 a:hover{
+		color:#CCC;
+		text-decoration:none;
+	}
+
+/* 5.Destination */
+.destination-pic{
+	max-width:100%;
+	height:auto;
+	background-color:#C00;
+	margin:10px 0px;
+}
+
+/* 6.Related Tours */
+.tulisan-rt{
+	background-color:#333;
+	color:#FFF;
+	padding:10px 10px 10px 20px;
+	margin-top:30px;
+	margin-bottom:10px;
+}
+
+.gambar-rt{
+	width:120px;
+	height:100px;
+	background-color:#036;
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+	h3 a{
+		text-decoration:none;
+		color:#000;
+	}
+
+	h3 a:hover{
+		text-decoration:none;
+		color:#0CF;
+	}
+
+.font-style-rt{
+	font-size:16px;
+	font-weight:500;
+	margin-top:0px;
+}
+
+.harga{
+	float:left;
+	margin-top:10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#F00;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.star{
+	height:17px;
+	width:100px;
+	float:right;
+	background-image:url(../images/5-star_rating.png);
+	margin-bottom:30px;
+	margin-top:10px;
+}
+
+	.four-star{
+		background-position:0px -24px;
+	}
+	
+	.three-star{
+		background-position:0px -48px;
+	}
+
+/* 7.Message To Owner */
+.kotak-mto{
+	max-width:100%;
+	height:500px;
+	border:solid 2px #CCC;
+	margin-top:150px;
+	padding:10px;
+	border-radius:10px;
+}
+
+.foto-mto{
+	max-width:100%;
+	height:150px;
+	background-color:#FFF;
+}
+
+.kotak-pesan{
+	border-radius:10px;
+}
+
+.kotak-message{
+	height:100px;
+}
+
+.kotak-message2{
+	height:200px;
+}
+
+
+.kotak-sent{
+	padding:10px 20px;
+	border-radius:10px;
+	background-color:#0CF;
+	text-decoration:none;
+	list-style-type:none;
+	text-shadow:none;
+}
+
+.kotak-sent:hover{
+	background-color:#09F;
+}
+
+/* About Us */
+.box-info{
+	border:solid 1px #CCC;
+	margin-bottom:20px;
+}
+
+	.box-info h3{
+		margin:0px;
+		padding:10px 15px;
+		color:#09F;
+		font-size:26px;
+	}
+
+.box-info ol{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+.box-info ol li a{
+	display:block;
+	padding:10px 10px 10px 30px;
+	border-top:solid 1px #CCC;
+	color:#666;
+	text-decoration:none;
+}
+
+.box-info ol li a:hover{
+	background-color:#CCC;
+}
+
+/* Tours halaman */
+.col-xl-8 h1{
+	border-bottom:solid #CCC 1px;
+	padding-bottom:2px;
+}
+
+.col-xl-8 h1 span{
+	border-bottom:solid #333 2px;
+}
+
+/* Monkey Forest Halaman */
+.tulisan-mf{
+	position:absolute;
+	padding:5px 30px;
+	bottom:90px;
+	right:20px;
+	background-color:rgb(0,0,0,0.6);
+	color:#FFF;
+	font-size:40px;
+	border:0px;
+	display:none;
+}
+
+.tulisan-ubud{
+	position:absolute;
+	padding:5px 30px;
+	bottom:30px;
+	right:20px;
+	background-color:rgb(0,0,0,0.6);
+	color:#FFF;
+	font-size:28px;
+	display:none;
+}
+
+/* 8.Footer */
+.footer{
+	background-color:#1c1c1c;
+	margin-top:50px;
+	padding:0px 0px 20px;
+	text-align:center;
+}
+
+	.footer h2{
+		border:0px;
+	}
+	
+.g-footer{
+	height:70px;
+	max-width:100%;
+	width:130px;
+}
+
+p i{
+	font-size:35px;
+	padding:0px 10px;
+}
+
+	p a i{
+		color:#FFF;
+	}
+	
+	p a i:hover{
+		color:#CCC;
+	}
+
+@media(min-width:576px) {
+	.tulisan-bali{
+		display:none;
+		right:210px;
+	}
+
+	.tulisan-des-tour{
+		display:none;
+		right:110px;
+	}
+	
+	h2{
+		font-size:28px;
+	}
+	
+	h3{
+		font-size:20px;
+	}
+	
+	.tulisan-rt{
+		font-size:22px;
+	}
+	
+	.g-footer{
+		width:80px;
+	}
+}
+
+
+@media(min-width:768px) {
+	.tulisan-bali{
+		display:block;
+		right:400px;
+	}
+
+	.tulisan-des-tour{
+		display:block;
+		right:300px;
+	}
+	
+	h2{
+		font-size:30px;
+	}
+	
+	h3{
+		font-size:24px;
+	}
+	
+	.tulisan-rt{
+		font-size:20px;
+	}
+	
+	.font-style-rt{
+		font-size:15px;
+	}
+	
+	.tulisan-mf{
+		display:block;
+	}
+
+	.tulisan-ubud{
+		display:block;
+	}
+	
+	.menu li{
+		font-size:15px;
+	}
+	
+	.g-footer{
+		width:90px;
+	}
+	
+}
+
+@media(min-width:992px) {
+	.tulisan-bali{
+		display:block;
+		right:500px;
+	}
+
+	.tulisan-des-tour{
+		display:block;
+		right:400px;
+	}
+	
+	h2{
+		font-size:33px;
+	}
+	
+	h3{
+		font-size:26px;
+	}
+	
+	.tulisan-rt{
+		font-size:22px;
+	}
+	
+	.menu li{
+		font-size:18px;
+	}
+	
+	.g-footer{
+		width:110px;
+	}
+}
+
+@media(min-width:1200px) {
+	.tulisan-bali{
+		display:block;
+		right:600px;
+	}
+
+	.tulisan-des-tour{
+		display:block;
+		right:500px;
+	}
+	
+	h2{
+		font-size:40px;
+	}
+	
+	h3{
+		font-size:30px;
+	}
+	
+	.tulisan-rt{
+		font-size:24px;
+	}
+	
+	.menu li{
+		font-size:18px;
+	}
+	
+	.g-footer{
+		width:130px;
+	}
+}
